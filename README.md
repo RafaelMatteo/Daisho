@@ -46,3 +46,4 @@ MIT License: Free to use, modify, and expand with proper attribution.
 **Author**: Rafael Matteo Mourigan
 **Mission**: Build the most advanced AI & DevSecOps Purple Team Platform  
 **GitHub**: [github.com/RafaelMatteo](https://github.com/RafaelMatteo)
+**Email**: [Rafael Matteo Mourigan](mailto:rafael.daisho.architect@gmail.com)
