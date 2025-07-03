@@ -1,0 +1,48 @@
+# Ignorar archivos especificos
+*.iso
+
+# Ignorar archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# Ignorar cachés y archivos ocultos específicos
+.cache/
+.thumbnails/
+.Trash-*/
+
+# Ignorar directorios del sistema o de usuario que no quieras respaldar
+/rafael/Backups/
+/mnt/dojo_snapshots/
+/proc/
+/sys/
+/dev/
+/run/
+/tmp/
+
+# Archivos protegidos del sistema que siempre fallan
+/etc/shadow
+/etc/gshadow
+/etc/shadow-
+/etc/gshadow-
+/etc/sudoers
+/etc/sudoers.d/
+/etc/ssl/private/
+/etc/polkit-1/rules.d/
+/etc/credstore*
+/etc/ppp/
+/etc/polkit-1/
+/etc/fwupd/
+/etc/netplan/
+/var/log/boot.log*
+/var/log/btmp
+/var/log/samba/
+/var/log/private/
+/var/log/lightdm/
+
+
+
+# Ignorar montajes de red o puntos específicos
+/media/
+/mnt/
+
