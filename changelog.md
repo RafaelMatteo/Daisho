@@ -4,6 +4,20 @@ All notable changes to this project and subprojects will be documented in this f
 
 This file documents the evolution of components and subprojects within the **Daisho Platform**, a modular cybersecurity architecture combining AI, DevSecOps, Blue/Red Team operations, and Zero Trust segmentation.
 
+## [v0.2.0] - 2025-07-03
+
+### Changed
+- Restructured the entire repository to follow a modular and scalable format.
+- Introduced `/modules/` folder containing each Daisho component:
+  - `DaishoSentinel`, `DaishoRedMindOps`, `DaishoForge`, `DaishoCore`
+- Added standard internal structure to each module: `scripts/`, `configs/`, `docs/`, `assets/`
+- Moved technical decisions to `/decisions/` as formal Architecture Decision Records (ADRs).
+- Created unified documentation folder `/docs/` and assets folder `/assets/`.
+
+### Added
+- README.md template for modules
+- Standard roles and directory overview for each module
+
 ## [v0.1.0] - 2025-07-01
 
 ### Added
@@ -19,20 +33,6 @@ This file documents the evolution of components and subprojects within the **Dai
   - LICENCE
   - Readme.md
   - SECURITY.md
-
-## [v0.2.0] - 2025-07-03
-
-### Changed
-- Restructured the entire repository to follow a modular and scalable format.
-- Introduced `/modules/` folder containing each Daisho component:
-  - `DaishoSentinel`, `DaishoRedMindOps`, `DaishoForge`, `DaishoCore`
-- Added standard internal structure to each module: `scripts/`, `configs/`, `docs/`, `assets/`
-- Moved technical decisions to `/decisions/` as formal Architecture Decision Records (ADRs).
-- Created unified documentation folder `/docs/` and assets folder `/assets/`.
-
-### Added
-- README.md template for modules
-- Standard roles and directory overview for each module
 
 ---
 
